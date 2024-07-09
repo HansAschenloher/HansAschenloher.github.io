@@ -1,5 +1,5 @@
 {
-  description = "nix devshell example";
+  description = "nix devshell";
 
   inputs = { nixpkgs.url = "github:NixOS/nixpkgs/nixos-24.05"; };
 
@@ -14,9 +14,6 @@
         (system: fn { pkgs = import nixpkgs { inherit system; }; });
 
     in {
-      # nix develop <flake-ref>#<name>
-      # --
-      # $ nix develop <flake-ref>#first
       devShells = forAllSystems ({ pkgs }: {
         default = pkgs.mkShell {
           name = "nix";
