@@ -17,7 +17,7 @@
       devShells = forAllSystems ({ pkgs }: {
         default = pkgs.mkShell {
           name = "nix";
-          nativeBuildInputs = [ pkgs.jekyll pkgs.bundler ];
+          nativeBuildInputs = [ pkgs.bundler pkgs.rubyPackages.webrick ];
         };
       });
     };
