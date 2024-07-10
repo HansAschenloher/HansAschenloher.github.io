@@ -34,6 +34,8 @@ highlight_theme: tomorrow-night
 plugins:
   - jekyll-feed
   - jekyll-remote-theme
+  - jekyll-minifier
+  - jekyll-sitemap
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -49,6 +51,14 @@ plugins:
   #
   #
   #
+mathjax: true
+mathjax_autoNumber: true
+
+# Mermaid
+mermaid: true
+
+# Chart
+chart: true
 author:
   type: person
   name: Johann Aschenloher
