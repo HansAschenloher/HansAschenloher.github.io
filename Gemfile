@@ -19,6 +19,7 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "jekyll-commonmark-ghpages"
 gem "strscan", "~> 3.1.0"
 gem "bigdecimal"
+gem "jekyll-coffeescript"
 
 # If you have any plugins, put them here!
 group :jekyll_plugins do

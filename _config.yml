@@ -36,6 +36,7 @@ plugins:
   - jekyll-remote-theme
   - jekyll-minifier
   - jekyll-sitemap
+  - jekyll-coffeescript
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
 # to override the default setting.
@@ -56,7 +57,9 @@ mathjax_autoNumber: true
 
 # Mermaid
 mermaid: true
-
+sass:
+  sass_dir: _scss
+  style: compressed
 # Chart
 chart: true
 author:
