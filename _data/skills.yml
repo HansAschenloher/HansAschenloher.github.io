@@ -1,0 +1,32 @@
+---
+languages:
+  - item: Pyhton
+  - item: Java
+  - item: Groovy
+  - item: Haskell
+  - item: SQL
+  - item: JavaScript/TypeScript
+  - item: Kotlin
+frameworks:
+  - item: PyTorch
+  - item: Tensorflow
+  - item: Keras
+  - item: Mironaut
+  - item: Grails
+  - item: Spring
+  - item: FastAPI
+tools:
+  - item: Bash
+  - item: Git & Github
+  - item: Docker
+  - item: MariaDB
+  - item: MongoDB
+  - item: Pandas
+other:
+  - item: Linux
+  - item: NixOS
+  - item: Computer Vision
+  - item: Deep Learning
+  - item: TDD
+  - item: Spiking Neural Networks
+  - item: fluent in German and English

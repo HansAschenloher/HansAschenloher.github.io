@@ -57,9 +57,7 @@ mathjax_autoNumber: true
 
 # Mermaid
 mermaid: true
-sass:
-  sass_dir: _scss
-  style: compressed
+
 # Chart
 chart: true
 author:
