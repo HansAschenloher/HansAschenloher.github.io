@@ -28,7 +28,7 @@ github_username: HansAschenloher
 markdown: kramdown
 # remote_theme: pages-themes/midnight@v0.2.0
 # theme: minima
-theme: jekyll-text-theme
+remote_theme: kitian616/jekyll-text-theme
 text_skin: dark
 highlight_theme: tomorrow-night
 plugins:
